@@ -9,9 +9,9 @@ body {
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 .right-arrow,
 .left-arrow {
@@ -56,9 +56,11 @@ body {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
-  height: 900px;
-  margin-top: -330px;
+  /* width: 880px; */
+  height: 860px;
+  /* height: 90vh; */
+  margin-top: -280px;
+  /* margin-top: -30vh; */
 }
 
 .exercise-card {
