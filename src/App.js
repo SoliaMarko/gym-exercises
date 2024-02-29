@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
-import ExerciseDetails from './pages/ExerciseDetails';
+import ExerciseDetail from './pages/ExerciseDetail';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/exercise/:id" element={<ExerciseDetails />} />
+        <Route path="/exercise/:id" element={<ExerciseDetail />} />
       </Routes>
       <Footer />
     </Box>
